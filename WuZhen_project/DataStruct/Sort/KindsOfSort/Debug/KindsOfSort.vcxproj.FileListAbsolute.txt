@@ -1,0 +1,2 @@
+D:\Repositories\Personal\WuZhen_project\DataStruct\Sort\KindsOfSort\Debug\KindsOfSort.exe
+D:\Repositories\Personal\WuZhen_project\DataStruct\Sort\KindsOfSort\Debug\KindsOfSort.pdb

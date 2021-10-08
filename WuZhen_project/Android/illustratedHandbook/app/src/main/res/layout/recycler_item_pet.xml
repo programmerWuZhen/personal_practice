@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginBottom="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_petitem"
+    >
+    <ImageView
+        android:id="@+id/img_pet"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center_vertical"
+        />
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:gravity="left"
+        >
+        <TextView
+            android:id="@+id/txt_chiname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中文名：腊肠犬"
+            android:textSize="25dp"
+
+            />
+        <TextView
+            android:id="@+id/txt_engname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="英文名:Bichon Frise"
+            android:textSize="25dp"
+            />
+        <TextView
+            android:id="@+id/txt_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="价格:"
+            android:textSize="25dp"
+            />
+        <Button
+            android:id="@+id/btn_favorites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="收藏"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
