@@ -1,0 +1,3 @@
+﻿  源.cpp
+D:\Repositories\Personal\WuZhen_project\Test\Test\源.cpp(9,16): warning C4309: “初始化”: 截断常量值
+  Test.vcxproj -> D:\Repositories\Personal\WuZhen_project\Test\Test\Debug\Test.exe
